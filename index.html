@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmeto - Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+</head>
+<body>
+    <div class="main">
+    <header class="header">
+        <h3>Marmeto - Shopping Cart </h3> 
+        <a class="openbtn" onclick="openNav()">&#128722;</a>
+    </header>
+    <section>
+      <div class="container">
+        <div class="product-list">
+            <div class="product-item">
+                <div class="feature-img">
+                <a href="#"><img src="https://b06e-arijit.myshopify.com/cdn/shop/files/3igloo-products_2e4db729-f984-4ea1-9a29-8ead329ef8dd.jpg?v=1733464413" class="product-img" alt="Beginner's Guide to Snowboarding DVD"></a>
+                </div>
+                <div class="content">
+                <h4 class="product-title">Beginner's Guide to Snowboarding DVD</h4>
+                <p>Price: <span class="product-price">₹ 55000</span></p>
+                </div>
+                <button type="button" data-name="Beginner's Guide to Snowboarding DVD" data-price="55000" class="add-to-cart btn">Add to cart</button>
+            </div>
+            <div class="product-item">
+            <div class="feature-img">
+                <a href="#"><img src="https://b06e-arijit.myshopify.com/cdn/shop/files/Untitled-2_2733bd73-c5cb-4d80-8d84-9cbae3db4a3f.jpg?v=1733464743" alt="High-Performance Snow Goggles" class="product-img"></a>
+            </div>
+            <div class="content">
+                <h4 class="product-title">High-Performance Snow Goggles</h4>
+                <p>Price: <span class="product-price">₹ 5600</p>
+            </div>
+            <button type="button" data-name="High-Performance Snow Goggles" data-price="5600" class="add-to-cart btn">Add to cart</button>
+            </div>
+            <div class="product-item">
+            <div class="feature-img">
+                <a href="#"><img src="https://b06e-arijit.myshopify.com/cdn/shop/files/1igloo-products_1d2bf0a1-9d87-4247-bc8a-0557d3f6a9fd.jpg?v=1733464201" alt="Water-Resistant Snow Hoodie" class="product-img"></a>
+            </div>
+            <div class="content">
+                <h4 class="product-title">Water-Resistant Snow Hoodie</h4>
+                <p>Price: <span class="product-price">₹ 29980</span></p>
+            </div>
+            <button type="button" data-name="Water-Resistant Snow Hoodie" data-price="29980" class="add-to-cart btn">Add to cart</button>
+        </div>
+        </div>
+        <div class="product-content">
+            <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span><span>162 Reviews</span>
+            <h4>New Color</h4>
+        </div>
+      </div>
+    </section>
+
+<div id="myCart" class="sidenav">
+    <div class="cart">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="total">
+            <div class="cart-title">Your Bag</div>
+            <div class="total-item"><span class="total-count"></span> Items</div>
+            <div class="total-price">₹ 0/-</div>
+        </div>
+        <div class="cart-content">
+        </div>
+        <div class="product-order">  
+            <button class="btn btn-order" type="button">Order</button>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script type="text/javascript" src="assets/script.js"></script>
+</body>
+</html>
